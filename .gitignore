@@ -1,0 +1,38 @@
+# Ignore environment variables
+.env
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore test, type-check, lint, and coverage artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Ignore build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore frontend dependency, build, coverage, and TypeScript cache artifacts
+/frontend/node_modules/
+/frontend/dist/
+/frontend/coverage/
+/frontend/.cache/
+/frontend/*.tsbuildinfo
+/tmp/frontend-vite-cache/
+
+# Ignore local database tooling and confidential backup artifacts
+/.tools/
+/backups/
+
+# Ignore confidential legacy pharmacy data
+/Files/

@@ -1,0 +1,19 @@
+{
+  "name": "DawAI Pharmacy Workspace",
+  "short_name": "DawAI",
+  "description": "Bilingual pharmacy operations and point-of-sale workspace",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f8fb",
+  "theme_color": "#176b87",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/dawai-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
